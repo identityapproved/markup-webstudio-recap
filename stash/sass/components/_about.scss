@@ -1,16 +1,6 @@
-.section-title {
-  margin: 0;
-  padding-bottom: 50px;
-  display: flex;
-  justify-content: center;
-  font-size: 36px;
-  line-height: 1.2;
-  color: $titles-color;
-}
-
 .about-item {
   position: relative;
-    
+
   &__spacer {
     position: absolute;
     display: flex;
