@@ -1,0 +1,21 @@
+.benefits-section {
+  padding-top: 94px;
+}
+
+.benefits-list__title {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: $titles-color;
+}
+
+.benefits-list__item {
+  width: 270px;
+}
+
+.benefits-list__icon {
+  padding: 25px 100px;
+  background-color: $bg-gray;
+}

@@ -1,0 +1,37 @@
+.customers-section {
+  padding-top: 94px;
+}
+
+.customer__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 170px;
+  height: 90px;
+  border: 1px solid $icons-gray;
+  border-radius: 4px;
+  color: $icons-gray;
+
+  transition: border-color $time $cubic;
+  
+  &:hover,
+  &:focus,
+  &:active {
+    border-color: $accent-color;
+  }
+}
+
+.customer__icon {
+  width: 50%;
+  height: 50%;
+  fill: currentColor;
+  transition: fill $time $cubic;
+   
+  .customer__link:hover &,
+  .customer__link:focus &,
+  .customer__link:active & {
+    fill: $accent-color;
+    cursor: pointer;
+  }
+}
