@@ -1,8 +1,9 @@
 .benefits-section {
-  padding: 60px 0 0 0;
+  padding: 60px 0;
 
   @media screen and (min-width: $desktop) {
     padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
@@ -56,4 +57,10 @@
 .benefits-list__icon {
   //   padding: 25px 100px;
   background-color: $bg-gray;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.2;
+  color: $text-color;
 }

@@ -1,3 +1,17 @@
+.about {
+  padding-bottom: 94px;
+
+  @media screen and (max-width: $desktop) {
+    display: none;
+  }
+}
+
+.about-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .about-item {
   position: relative;
 

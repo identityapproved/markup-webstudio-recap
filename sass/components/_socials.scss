@@ -1,9 +1,14 @@
 .socials {
   display: flex;
-  justify-content: space-between;
-  width: 206px;
-  height: 44px;
-  padding: 0 32px 30px 32px;
+  justify-content: center;
+  padding-bottom: 24px;
+  //   width: 206px;
+  //   height: 44px;
+  //   padding: 0 122px 24px 122px;
+
+  @media screen and (min-width: $desktop) {
+    padding-bottom: 30px;
+  }
 }
 
 .socials__item {
@@ -25,7 +30,7 @@
   background-color: inherit;
 
   transition: background-color $time $cubic;
-  
+
   &:hover,
   &:focus,
   &:active {
@@ -37,7 +42,7 @@
 .socials__icon {
   fill: $icons-gray;
   transition: fill $time $cubic;
-  
+
   .socials__link:hover &,
   .socials__link:focus &,
   .socials__link:active & {
