@@ -32,6 +32,17 @@ img {
   height: auto;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  background-color: #fff;
+  color: #757575;
+  margin: 0px;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 15px;
@@ -370,8 +381,8 @@ img {
 
 @media screen and (min-width: 768px) {
   .benefits-list__item {
-    -ms-flex-preferred-size: calc((100% - 60px) / 2);
-        flex-basis: calc((100% - 60px) / 2);
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
   }
 }
 
@@ -413,12 +424,6 @@ img {
 
 .benefits-list__icon {
   background-color: #f5f4fa;
-}
-
-.text {
-  font-size: 16px;
-  line-height: 1.2;
-  color: #757575;
 }
 
 .team-section {
