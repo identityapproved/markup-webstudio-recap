@@ -32,7 +32,9 @@
   line-height: 1.2;
   color: $accent-color;
 
-  margin: 24px 93px 24px 0;
+  @media screen and (min-width: $tablet) {
+    margin: 24px 93px 24px 0;
+  }
 
   &--black {
     color: $black;
