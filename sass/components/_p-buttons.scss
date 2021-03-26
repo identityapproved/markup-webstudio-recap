@@ -1,8 +1,18 @@
 .buttons {
   display: flex;
+  flex-wrap: wrap;
   margin: 0 0;
-  padding-top: 94px;
+  padding-top: 60px;
   padding-bottom: 34px;
+
+  @media screen and (min-width: $tablet) {
+    justify-content: center;
+    padding-top: 94px;
+    padding-bottom: 30px;
+  }
+  @media screen and (min-width: $desktop) {
+    padding-bottom: 50px;
+  }
 }
 
 .buttons__btn {
