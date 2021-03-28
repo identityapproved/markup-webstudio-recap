@@ -1,6 +1,10 @@
 .team-section {
   padding: 60px 0;
   background-color: $bg-gray;
+
+  @media screen and (min-width: $desktop) {
+    padding: 94px 0;
+  }
 }
 
 .team {
@@ -22,13 +26,13 @@
   }
 
   @media screen and (min-width: $tablet) {
-    flex-basis: calc((100% - 30px) / 2);
+    flex-basis: calc((100% - 60px) / 2);
     margin-top: $grid-gap;
     margin-left: $grid-gap;
   }
 
   @media screen and (min-width: $desktop) {
-    flex-basis: calc((100% - 60px) / 4);
+    flex-basis: calc((100% - 120px) / 4);
   }
 
   background-color: $white;

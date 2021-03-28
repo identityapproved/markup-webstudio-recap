@@ -64,10 +64,6 @@
   padding: 0;
 }
 
-.footer__social-link {
-  background: rgba(255, 255, 255, 0.1);
-}
-
 .footer__social-icon {
   fill: $white;
 }
@@ -150,6 +146,7 @@
 
   @media screen and (max-width: 1199px) {
     align-items: center;
+    width: 100%;
   }
 }
 

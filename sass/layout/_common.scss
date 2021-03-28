@@ -50,6 +50,16 @@ body {
   }
 }
 
+.section--portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: $tablet) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 // Visually Hidden
 
 .visually-hidden {

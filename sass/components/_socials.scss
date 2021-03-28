@@ -16,6 +16,7 @@
   justify-content: center;
   align-items: center;
   list-style: none;
+  padding: 0 5px;
 }
 
 .socials__link {
@@ -37,6 +38,10 @@
     background-color: $accent-color;
     cursor: pointer;
   }
+}
+
+.footer__social-link {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .socials__icon {

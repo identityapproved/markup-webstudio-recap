@@ -52,11 +52,12 @@
 }
 
 .menu-container {
+  box-sizing: border-box;
   position: fixed;
   top: 0;
   left: 0;
-  width: 480px;
-  height: 796px;
+  width: 100vw;
+  height: 100vh;
   padding: 32px;
   background-color: $white;
   z-index: 999;

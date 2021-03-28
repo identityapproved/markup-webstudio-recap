@@ -55,7 +55,9 @@
 }
 
 .benefits-list__icon {
-  //   padding: 25px 100px;
+  min-width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
   background-color: $bg-gray;
 }
 
